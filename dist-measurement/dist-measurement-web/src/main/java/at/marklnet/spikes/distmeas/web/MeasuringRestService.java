@@ -4,6 +4,13 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
+
+/**
+ * RestEasy
+ * http://docs.jboss.org/resteasy/docs/2.3.6.Final/userguide/html_single/index.html
+ * 
+ * @author Markus Markl
+ */
 @Path("/measuringService")
 public class MeasuringRestService {
 		

@@ -17,6 +17,7 @@
   	<version.junit>4.8.2</version.junit>
   	<version.pojomatic>1.0</version.pojomatic>
   	<version.resteasy>2.2.1.GA</version.resteasy>
+  	<version.slf4j>1.7.5</version.slf4j>
   </properties>
 
 
@@ -35,6 +36,12 @@
   		<version>${version.junit}</version>
   		<scope>test</scope>
   	</dependency>
+
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>${version.slf4j}</version>
+	</dependency>
 
 	<dependency>
 		<groupId>org.pojomatic</groupId>
