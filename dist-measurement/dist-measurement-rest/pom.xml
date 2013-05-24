@@ -6,29 +6,21 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
-  <artifactId>dist-measurement-web</artifactId>
-  <packaging>war</packaging>
-  <name>Web Application</name>
-  <description>Die "dist-measuremnt" Webapplikation. Stellt Services für Webzugriff, REST, etc. bereit.</description>
+  <artifactId>dist-measurement-rest</artifactId>
+  <packaging>pom</packaging>
+  <name>REST</name>
+  <description>REST Module</description>
+  <modules>
+  	<module>dist-measurement-rest-api</module>
+  	<module>dist-measurement-rest-service</module>
+  	<module>dist-measurement-rest-client</module>
+  </modules>
 
   <dependencies>
-  	<!-- Modul Dependencies -->
-  	<dependency>
-  		<groupId>at.marklnet.spikes</groupId>
-  		<artifactId>dist-measurement-rest-api</artifactId>
-  		<version>${project.version}</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>at.marklnet.spikes</groupId>
-  		<artifactId>dist-measurement-rest-service</artifactId>
-  		<version>${project.version}</version>
-  	</dependency>
-  
   		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxrs</artifactId>
 			<version>${version.resteasy}</version>
 		</dependency>
   </dependencies>
-
 </project>

@@ -7,16 +7,26 @@
   <name>Distribute Measurement</name>
   <description>Testprojekt zum Testen von diversen Frameworks, wie z.B.: RestEasy, Hibernate, JSF, JavaFX und so weiter.</description>
   <modules>
-  	<module>dist-measurment-common</module>
+  	<module>dist-measurement-common</module>
   	<module>dist-measurement-data</module>
-  	<module>dist-measurment-rest</module>
+  	<module>dist-measurement-rest</module>
   	<module>dist-measurement-web</module>
   </modules>
   
   <properties>
   	<version.junit>4.8.2</version.junit>
   	<version.pojomatic>1.0</version.pojomatic>
+  	<version.resteasy>2.2.1.GA</version.resteasy>
   </properties>
+
+
+	<repositories>
+		<repository>
+			<id>JBoss repository</id>
+			<url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+		</repository>
+	</repositories>
+
   
   <dependencies>
   	<dependency>

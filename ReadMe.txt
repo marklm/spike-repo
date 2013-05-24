@@ -19,4 +19,7 @@ Git Installation
     
 Verwendete Frameworks:
   - http://pojomatic.sourceforge.net/;
+    http://pojomatic.sourceforge.net/pojomatic/index.html
     Pojomatic provides configurable implementations of the equals(Object), hashCode() and toString() methods inherited from java.lang.Object.
+  - http://www.jboss.org/resteasy 
+    JBoss REST Framework  

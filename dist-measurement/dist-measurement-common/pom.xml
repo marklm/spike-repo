@@ -6,8 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
-  <artifactId>dist-measurement-data</artifactId>
-  <packaging>pom</packaging>
-  <name>data</name>
-  <description>Simple Persistenzschicht. Beinhaltet Domainobjekt, sowie DAOs.</description>
+  <artifactId>dist-measurement-common</artifactId>
+  <name>Common Projekt</name>
+  <description>Beinhaltet allgemeine genutzte Resourcen, wie DTOs, Hilfsmethoden, etc.</description>
 </project>
