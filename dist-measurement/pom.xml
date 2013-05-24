@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>at.marklnet.spikes</groupId>
+  <artifactId>dist-measurement</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Distribute Measurement</name>
+  <description>Testprojekt zum Testen von diversen Frameworks, wie z.B.: RestEasy, Hibernate, JSF, JavaFX und so weiter.</description>
+  <modules>
+  	<module>dist-measurment-common</module>
+  	<module>dist-measurement-data</module>
+  	<module>dist-measurment-rest</module>
+  	<module>dist-measurement-web</module>
+  </modules>
+</project>
