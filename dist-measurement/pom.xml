@@ -12,4 +12,24 @@
   	<module>dist-measurment-rest</module>
   	<module>dist-measurement-web</module>
   </modules>
+  
+  <properties>
+  	<version.junit>4.8.2</version.junit>
+  	<version.pojomatic>1.0</version.pojomatic>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>${version.junit}</version>
+  		<scope>test</scope>
+  	</dependency>
+
+	<dependency>
+		<groupId>org.pojomatic</groupId>
+		<artifactId>pojomatic</artifactId>
+		<version>${version.pojomatic}</version>
+	</dependency>
+  </dependencies>
 </project>

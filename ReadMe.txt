@@ -15,3 +15,8 @@ Git Installation
     
     Clone Repo am Arbeitsplatz
     
+    
+    
+Verwendete Frameworks:
+  - http://pojomatic.sourceforge.net/;
+    Pojomatic provides configurable implementations of the equals(Object), hashCode() and toString() methods inherited from java.lang.Object.
