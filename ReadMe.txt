@@ -7,8 +7,8 @@ Git Installation
   - Download von: http://git-scm.com/download/win
   
  SetUP Git:
-  git config --global user.name "Markus Markl"
-  git config --global user.email "m.markl@gmx.eu"
+  git config --global user.name "xxxx"
+  git config --global user.email "xxxxx"
   
  Repository on GitHub
     https://github.com/marklm/spike-repo.git
@@ -18,7 +18,7 @@ Git Installation
     
     
 Verwendete Frameworks:
-  - slf4j (log4j) für Logging
+  - slf4j (log4j) fï¿½r Logging
   
   - http://pojomatic.sourceforge.net/;
     http://pojomatic.sourceforge.net/pojomatic/index.html
