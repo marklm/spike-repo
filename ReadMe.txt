@@ -14,9 +14,8 @@ Git Installation
     https://github.com/marklm/spike-repo.git
     
     Clone Repo am Arbeitsplatz
-    
-    
-    
+     - git clone http://github.com/marklm/spike-repo.git spike-repo
+
 Verwendete Frameworks:
   - slf4j (log4j) f�r Logging
   
