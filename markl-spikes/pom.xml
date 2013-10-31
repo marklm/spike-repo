@@ -3,4 +3,41 @@
   <groupId>at.marklnet</groupId>
   <artifactId>markl-spikes</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  	<log4j.version>1.2.14</log4j.version>
+  	<commons-lang.version>2.6</commons-lang.version>
+  	
+  	<hibernate-validator.version>4.3.0.Final</hibernate-validator.version>
+  	<junit.version>4.8.2</junit.version>
+  </properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons-lang.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JSR-303 Implementation of Bean Validation -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate-validator.version}</version>
+		</dependency>
+	</dependencies>
 </project>
