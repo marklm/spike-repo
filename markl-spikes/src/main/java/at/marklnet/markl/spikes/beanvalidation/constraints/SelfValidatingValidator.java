@@ -6,7 +6,8 @@ import javax.validation.ConstraintValidatorContext;
 
 public class SelfValidatingValidator implements ConstraintValidator<SelfValidating, Validatable> {
 
-public void initialize(SelfValidating constraintAnnotation) {}
+    public void initialize(SelfValidating constraintAnnotation) {
+    }
 
     public boolean isValid(Validatable value, ConstraintValidatorContext constraintValidatorContext) {
 

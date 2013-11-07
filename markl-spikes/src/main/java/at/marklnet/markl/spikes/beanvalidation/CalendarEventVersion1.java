@@ -12,6 +12,13 @@ import at.marklnet.markl.spikes.beanvalidation.constraints.Validatable;
 /**
  * Beispiel für Class Level Constraint.
  * 
+ * http://musingsofaprogrammingaddict.blogspot.co.at/2010/06/whats-new-in-hibernate-validator-41.html
+ * http://musingsofaprogrammingaddict.blogspot.co.at/2010/02/generic-class-level-constraint-for-bean.html
+ * http://stackoverflow.com/questions/1972933/cross-field-validation-with-hibernate-validator-jsr-303
+ * http://stackoverflow.com/questions/2781771/how-can-i-validate-two-or-more-fields-in-combination
+ * 
+ * http://docs.jboss.org/hibernate/validator/4.1/api/org/hibernate/validator/constraints/ScriptAssert.html
+ * 
  * @author Markus Markl
  */
 @SelfValidating
