@@ -11,6 +11,7 @@
   	<hibernate-validator.version>4.3.0.Final</hibernate-validator.version>
   	<junit.version>4.8.2</junit.version>
   	<pojomatic.version>1.0</pojomatic.version>
+  	<commons-io.version>2.4</commons-io.version>
   </properties>
 
 	<dependencies>
@@ -19,6 +20,11 @@
 			<artifactId>commons-lang</artifactId>
 			<version>${commons-lang.version}</version>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
