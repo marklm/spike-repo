@@ -24,3 +24,5 @@ Verwendete Frameworks:
     Pojomatic provides configurable implementations of the equals(Object), hashCode() and toString() methods inherited from java.lang.Object.
   - http://www.jboss.org/resteasy 
     JBoss REST Framework  
+    
+    Android SDK
