@@ -29,7 +29,7 @@ public class CustomerJAXBService implements JAXBService<Customer> {
     }
     
 
-    @Override
+//    @Override
     public CharSequence toXML(Customer dto) {
         final StringWriter writer = new StringWriter();
         try {
@@ -42,7 +42,7 @@ public class CustomerJAXBService implements JAXBService<Customer> {
         return writer.toString();
     }
 
-    @Override
+//    @Override
     public Customer fromXML(CharSequence xml) {
         Customer customer = null;
         try {
