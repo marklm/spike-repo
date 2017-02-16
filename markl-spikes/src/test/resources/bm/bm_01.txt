@@ -1,0 +1,9 @@
+<p class="betriebsmitteilungHeader">Info für alle - <b>Neue Funktionalitäten stehen zu Verfügung</b>:</p>
+<div class="betriebsmitteilungContent">
+   <ol>
+      <li>Geodaten werden in den Masken nicht mehr dargestellt</li>
+      <li>Es können Typengutachten mit bis zu 100 Zeichen für die Reportnummer erfasst werden</li>
+      <li>Das Geo Informationssystem wurde für Bund und Länder freigeschalten.</li>
+      <li>Sonderzeichen: &uuml;&auml;&ouml;üöä,.-!"§$%&/()=?ß & &gt; &lt; #'";:_-;:/*-+{[]}^^°<<<<<>>>>>>></li>
+   </ol>
+</div>
