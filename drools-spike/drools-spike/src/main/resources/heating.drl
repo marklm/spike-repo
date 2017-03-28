@@ -1,0 +1,37 @@
+/*
+ * Drools Language
+ *
+ * https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/index.html
+ * LHS: https://docs.jboss.org/drools/release/6.5.0.Final/drools-docs/html_single/index.html#d0e9456
+ */
+package at.markl.spikes.re.drools.data;
+
+global org.slf4j.Logger logger
+global at.markl.spikes.re.drools.handler.ActionHandler actionHandler
+
+rule "Over 23°C Logger"
+
+ when
+   TempMeasurement( currentTemp > 23 )
+ then
+   logger.info("\t==> Executing RULE 'Over 23°C Logger'");
+end
+
+
+rule "Heating Rule"
+  when
+    $measurement : TempMeasurement ( currentTemp < requiredTemp - 1)
+  then
+    logger.info("\t==> Executing RULE 'Heating Rule' for Object: " + $measurement);
+    $measurement.setEvaluatedAction(ControllActionTyp.DO_HEATING);
+    actionHandler.handle("\n>>>>>>>>>> notify room control - heat <<<<<<<<<<<<<");
+end
+
+rule "Cooling Rule"
+  when
+    $measurement : TempMeasurement ( currentTemp > requiredTemp + 1)
+  then
+    logger.info("\t==> Executing RULE 'Cooling Rule' for Object: " + $measurement);
+    $measurement.setEvaluatedAction(ControllActionTyp.DO_COOLING);
+    actionHandler.handle("\n>>>>>>>>>> notify room control - cool <<<<<<<<<<<<<");
+end
